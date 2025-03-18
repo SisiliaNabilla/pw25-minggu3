@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu - Coffee Shop</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f5f5dc;
+      }
+      h1 {
+        color: #8b4513;
+      }
+      table {
+        margin: auto;
+        width: 50%;
+        border-collapse: collapse;
+        background: white;
+      }
+      th,
+      td {
+        border: 1px solid #8b4513;
+        padding: 10px;
+      }
+      th {
+        background-color: #8b4513;
+        color: white;
+      }
+      form {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Menu Coffee Shop</h1>
+    <table>
+      <tr>
+        <th>Nama Kopi</th>
+        <th>Harga</th>
+      </tr>
+      <tr>
+        <td>Espresso</td>
+        <td>Rp 20.000</td>
+      </tr>
+      <tr>
+        <td>Cappuccino</td>
+        <td>Rp 25.000</td>
+      </tr>
+      <tr>
+        <td>Latte</td>
+        <td>Rp 30.000</td>
+      </tr>
+    </table>
+
+    <h2>Pesan Sekarang</h2>
+    <form>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required /><br /><br />
+
+      <label for="kopi">Pilih Kopi:</label>
+      <select id="kopi" name="kopi">
+        <option value="Espresso">Espresso</option>
+        <option value="Cappuccino">Cappuccino</option>
+        <option value="Latte">Latte</option></select
+      ><br /><br />
+
+      <button type="submit">Pesan</button>
+    </form>
+
+    <br />
+    <a href="index.html">Kembali ke Home</a>
+  </body>
+</html>
